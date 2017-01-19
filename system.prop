@@ -3,7 +3,7 @@
 #
 mobiledata.interfaces=rmnet0,rmnet1
 ro.telephony.ril_class=HTCQualcommRIL
-telephony.lteOnCdmaDevice=1
+telephony.lteOnCdmaDevice=0
 telephony.rilV7NeedCDMALTEPhone = true
 rild.libpath=/system/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
@@ -22,7 +22,7 @@ ro.vendor.extension_library=/system/lib/libqc-opt.so
 ro.config.svlte1x=true
 ro.ril.transmitpower=true
 ro.baseband.arch = mdm
-ro.telephony.default_network=8
+ro.telephony.default_network=4
 
 # Device needs to get CDMA subscription when RUIM is ready
 ro.cdma.subscribe_on_ruim_ready = true
